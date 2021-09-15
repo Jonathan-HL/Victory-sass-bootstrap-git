@@ -17267,32 +17267,32 @@ header .text_header .button_header {
   padding: 10px;
 }
 
-section div:first-child {
+section .sc1 {
   display: flex;
   justify-content: center;
   padding: 7%;
 }
-section div:first-child img {
+section .sc1 img {
   width: 300px;
   height: 100%;
   margin-top: 30px;
 }
-section div .couleur1 {
+section .sc1 .couleur1 {
   background-color: #F2745F;
   padding: 40px;
 }
-section div .couleur1 .couleur2 {
+section .sc1 .couleur1 .couleur2 {
   padding: 10px;
   background-color: #F9C4B9;
 }
-section div span {
+section .sc1 span {
   display: block;
   border: solid 1px black;
   width: max-content;
   border-radius: 50%;
   margin: 10px auto;
 }
-section div button {
+section .sc1 button {
   display: block;
   margin: auto;
   border: none;
