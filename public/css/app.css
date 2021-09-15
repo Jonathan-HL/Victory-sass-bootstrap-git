@@ -17316,4 +17316,74 @@ section:nth-of-type(3) button {
   padding: 10px;
 }
 
+section:nth-of-type(4) {
+  margin: 100px 10%;
+}
+section:nth-of-type(4) .sc4 {
+  margin-top: 100px;
+  flex-wrap: nowrap;
+}
+section:nth-of-type(4) .sc4 .gris {
+  background-color: #F2F6FF;
+  padding: 20px;
+  margin: 0px 5px;
+}
+section:nth-of-type(4) .sc4 .gris .img1 {
+  background-image: url(../img/breakfast_item.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+section:nth-of-type(4) .sc4 .gris .img1 .dollar {
+  background-color: white;
+  width: max-content;
+  text-align: end;
+  padding: 5px 10px;
+  color: #F2745F;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0;
+}
+section:nth-of-type(4) .sc4 .gris .img2 {
+  background-image: url(../img/lunch_item.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  position: relative;
+}
+section:nth-of-type(4) .sc4 .gris .img2 .dollar {
+  background-color: white;
+  width: max-content;
+  text-align: end;
+  padding: 5px 10px;
+  color: #F2745F;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0;
+}
+section:nth-of-type(4) .sc4 .gris .img3 {
+  background-image: url(../img/dinner_item.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  position: relative;
+}
+section:nth-of-type(4) .sc4 .gris .img3 .dollar {
+  background-color: white;
+  width: max-content;
+  text-align: end;
+  padding: 5px 10px;
+  color: #F2745F;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin: 0;
+}
+
 /*# sourceMappingURL=app.css.map */
