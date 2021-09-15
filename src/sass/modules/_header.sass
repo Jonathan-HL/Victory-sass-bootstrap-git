@@ -9,7 +9,9 @@ header
             a
                 text-decoration: none
                 color: #767c83
-                margin: 0 30px
+                margin: 0 30px 
+                @media screen and (max-width:600px)
+                    margin: 0px 10px      
     .bg-header
      background-image: url(../../public/img/banner-bg.jpg)
      background-repeat: no-repeat
@@ -19,6 +21,8 @@ header
      padding: 15%
     .text_header
         margin: 0 25%
+        @media screen and (max-width:600px)
+            margin: 0px
         .button_header
             border: none
             border-radius: 5px
