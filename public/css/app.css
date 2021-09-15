@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Spectre";
+  src: url(../fonts/Spectral-Regular.ttf);
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -17226,6 +17230,41 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  margin: 0;
+  font-family: "Spectre";
+}
+
+header nav {
+  background-color: #EAF0FF;
+  padding: 50px;
+}
+header nav hr {
+  margin: 30px 0px;
+  width: 100%;
+}
+header nav div a {
+  text-decoration: none;
+  color: #767c83;
+  margin: 0 30px;
+}
+header .bg-header {
+  background-image: url(../../public/img/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 15%;
+}
+header .text_header {
+  margin: 0 25%;
+}
+header .text_header .button_header {
+  border: none;
+  border-radius: 5px;
+  background-color: #F2745F;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=app.css.map */
