@@ -17298,6 +17298,21 @@ section .sc1 button {
   border: none;
   border-radius: 5px;
   background-color: white;
+  color: #F2745F;
+  padding: 10px;
+}
+
+section:nth-of-type(3) {
+  background-color: #F2745F;
+  padding: 50px;
+}
+section:nth-of-type(3) button {
+  display: block;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #F2745F;
   padding: 10px;
 }
 
