@@ -17389,6 +17389,7 @@ section:nth-of-type(4) .sc4 .gris .img3 .dollar {
 section:nth-of-type(5) {
   background-image: url(../img/signup-bg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 80px;
 }
 section:nth-of-type(5) button {
@@ -17402,6 +17403,18 @@ section:nth-of-type(5) button {
 section:nth-of-type(5) input {
   padding: 10px 150px 10px 0px;
   border-radius: 5px;
+}
+
+footer {
+  background-color: #363E50;
+  padding: 20px;
+}
+footer a {
+  color: #363E50;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
